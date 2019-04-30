@@ -1,0 +1,228 @@
+@import "../components/variables.scss";
+
+#pricing{
+    background-image: linear-gradient(to bottom right, $purple-color, $green-color );
+    color: white;
+    padding-top: 100px;
+margin-top: -80px;
+padding-bottom: 500px;
+
+    .text-container{
+        text-align: center;
+
+        h3{
+            font-size: 2em;
+            font-weight: 500;
+        }
+    }
+
+    .grid{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: auto;
+
+        .card{
+            display: flex;
+            flex-flow: column;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 2px 40px rgba(14,30,37,.16);
+            color: rgba(14,30,37,.8);
+            max-width: 21em;
+            height: 450px;
+            border-radius: 2px;
+
+            &.tier1{
+                border: 2px solid #00ad9f;
+
+                .badge{
+                    background-color:#00ad9f;
+                    color: white;
+                }
+
+                .button{
+                    background-color:#00ad9f;
+                }
+
+            }
+
+            &.tier2{
+                border: 2px solid #0051c1;
+                height: 550px;
+
+
+                h2{
+                    background-color: #0051c1;
+                    color: white;
+                    padding: 10px;
+                    text-align: center;
+                }
+
+                .badge{
+                    background-color:#0051c1;
+                    color: white;
+                }
+
+                .button-container{
+                    position: relative;
+                    top: 25px;
+                }
+
+                .button{
+                    background-color:#0051c1;
+                }
+
+            }
+
+            &.tier3{
+                border: 2px solid #9b00f5;
+
+                .badge{
+                    background-color:#9b00f5;
+                    color: white;
+                }
+
+                .button{
+                    background-color:#9b00f5;
+                }
+            }
+
+
+            .badge{
+                font-weight: 600;
+                line-height: 1rem;
+                padding: 0 .382em;
+                position: relative;
+                width: min-content;
+            }
+            
+            h3{
+                font-size: .7em;
+            }
+
+            .bold-price{
+                font-size: 40px;
+
+                small{
+                    color: rgba(14,30,37,.38);
+                    font-size: .5em;
+                    font-weight: 400;
+                }
+            }
+
+            ul{
+                flex-grow:1;
+            }
+
+            
+
+            .button{
+                display: block;
+                width: 100%;
+                text-align: center;
+                color: white;
+                padding: 10px 0px;
+                border-radius: 2px;
+                box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            }
+            
+
+           
+
+        }
+        
+        
+
+    
+        
+    }
+}
+
+.wave-container{
+    background-color: #f4f7f8;
+    margin-top: -40px;
+}
+
+.table-container{
+    margin: auto;
+    padding: 40px;
+    margin: -250px auto auto auto;
+    position: relative;
+}
+summary{
+    background-color: #fff
+
+}
+
+#teams{
+    margin: -400px auto auto auto;
+    padding: 40px;
+    overflow-x:auto;
+    max-width: 1300px;
+
+    header{
+        background-color: #f4f7f8;
+        padding: 30px;
+        text-align: center;
+        box-shadow:0 0 0 1px rgba(255,255,255,.1),0 2px 4px 0 rgba(14,30,37,.12);
+        border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    }
+}
+
+
+
+#teams th[colspan] {
+    background-color: #e3ebed;
+    font-weight: 600;
+    border-collapse: collapse;
+}
+
+.checked{
+    height: 16px;
+    margin:0;
+
+}
+
+.x-circle{
+    height: 16px;
+    margin: 0;
+}
+
+.details[open] summary::after {
+    transform: rotate(-180deg);
+}
+/*! CSS Used from: https://cdn.netlify.com/css/8c034938c38116b190d747cb0f507da1c31d7cfa/main-v2.css */
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px;}
+svg{fill:currentColor;}
+.subdued{color:rgba(14,30,37,.54);}
+::placeholder{opacity:.6;}
+.badge{background:#00ad9f;border-radius:4px;color:#fff;display:inline-block;font-size:.7rem;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:600;line-height:1rem;padding:0 .382em;position:relative;top:-.1rem;vertical-align:middle;}
+.details,.table{background:#fff;border-radius:8px;box-shadow:0 0 0 1px rgba(255,255,255,.1),0 2px 4px 0 rgba(14,30,37,.12);color:rgba(14,30,37,.87);font-size:.85rem;margin:0em auto;}
+.table{border-collapse:collapse;display:block;max-width:100%;overflow-x:auto;table-layout:fixed;width:100%;}
+@media (min-width:60em){
+.table{display:table;}
+}
+.table td,.table th{font-weight:500;min-width:11.089em;padding:.85rem 1rem;text-align:center;}
+.table th:first-child{text-align:left;}
+.table thead{font-size:1.3em;}
+.table tbody th{font-weight:400;}
+.table tbody tr:nth-child(odd){background:rgba(14,30,37,.02);}
+.table tbody td:nth-child(even){background:rgba(14,30,37,.02);}
+.table tbody [aria-label=no]{opacity:.38;}
+.details{position:relative;text-align:left;}
+.details table{background:rgba(14,30,37,.02);box-shadow:none;margin:0;}
+.details summary{cursor:pointer;display:block;margin:0;outline:0;padding:1rem 2.618em 1rem 1rem;position:relative;}
+.details summary::-webkit-details-marker{display:none;}
+.details summary::after{background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDE4IDEyIj4KICA8cGF0aCBmaWxsPSIjMGUxZTI1IiBkPSJNMy4xNC42NjdsNS4wMSA0LjU5Yy40Ny40MyAxLjIzLjQzIDEuNyAwbDUuMDEtNC41OUwxOCAzLjU0NCA5Ljg1IDExLjAxYy0uNDcuNDMtMS4yMy40My0xLjcgMEwwIDMuNTQ1IDMuMTQuNjY3eiIvPgo8L3N2Zz4K);background-position:center;background-repeat:no-repeat;background-size:.8em;content:"";height:1rem;position:absolute;right:1rem;top:1rem;transition:transform .1s cubic-bezier(.07,.49,0,1.05);width:1rem;}
+.details summary>*{margin-left:0;}
+.details summary>:first-child{margin-top:0;}
+.tier1 .badge{background-color:#00ad9f;color:#fff;}
+.tier2 .badge{background-color:#0051c1;color:#fff;}
+.tier3 .badge{background-color:#9b00f5;color:#fff;}
+/*! CSS Used from: https://cdn.netlify.com/css/f0353d4e45a0cec251aa4d92de7744f11d8ef156/pricing.css */
+.section--pricing-table header{margin-bottom:2em;}
+.section--pricing-table th[colspan]{background-color:#e3ebed;font-weight:600;}

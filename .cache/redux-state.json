@@ -1,0 +1,3785 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/ethan/netlify-landing-page/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/ethan/netlify-landing-page/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f7685362e55d35420bd93e61d14888cc",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3831b4edc11eb3f5c771e73894fbd6dc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fc6f96925d9ff473bdfc7a4f9b00120a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "04f88d64b3b037b5e0385a72c19eb95d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "020b476b446e9888adf876574256dda5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "263c7cc93a74bb4a606e0d107e44a4f1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ca87abd8ceedd2d2012711d173ee8498",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-sass",
+      "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8cda8568319c4f7cccfd3cb6c8272e50",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5aa1388aed856b189b47111e99ba2201",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4303f310-a6d0-5b7c-b8cd-0fc45931d73d": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-netlify-cms",
+      "id": "4303f310-a6d0-5b7c-b8cd-0fc45931d73d",
+      "name": "gatsby-plugin-netlify-cms",
+      "version": "3.0.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateDevServer",
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-netlify-cms",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cms",
+        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
+        "version": "3.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "netlify-cms",
+          "cms"
+        ],
+        "author": {
+          "name": "Shawn Erquhart",
+          "email": "shawn@erquh.art"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@pieh/friendly-errors-webpack-plugin",
+            "version": "1.7.0-chalk-2"
+          },
+          {
+            "name": "html-webpack-exclude-assets-plugin",
+            "version": "^0.0.7"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-css-extract-plugin",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "netlify-identity-widget",
+            "version": "^1.4.11"
+          },
+          {
+            "name": "webpack",
+            "version": "^4.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.101"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.0.6"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2fbfe47039ef61d384ecd6730a32284b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c6be636d798d341786f588adfe5aac03",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "12430339-0edd-562e-80e3-dd3818bbe32e": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-source-filesystem",
+      "id": "12430339-0edd-562e-80e3-dd3818bbe32e",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/ethan/netlify-landing-page/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4691cb8731d535039b49627cf63e1cd6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a870b40e-4df0-5728-9d92-e34a68207186": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-source-filesystem",
+      "id": "a870b40e-4df0-5728-9d92-e34a68207186",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "blog",
+        "path": "/Users/ethan/netlify-landing-page/content/blog"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "32947323770ca47cf4a06f36173cf6d0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a087880c-5b61-5015-8627-0e0348c67d96": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-source-filesystem",
+      "id": "a087880c-5b61-5015-8627-0e0348c67d96",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "/Users/ethan/netlify-landing-page/content/pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2a3bdbc680c4eff6634900aae2ee0e91",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fce8f63db75db0a8c00cb296278e7b8e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.32",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.32",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^1.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3e5b16ea98441c20bb927edc46cecac3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "af2ea519-6d11-5d49-970e-a40e98710ec0": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-manifest",
+      "id": "af2ea519-6d11-5d49-970e-a40e98710ec0",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.26",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/logomark-1.svg"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "143022669f55473974b48d736c6bba66",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/ethan/netlify-landing-page",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "eaa67ccd0576cf08b15fc41362ff7778",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Netlify Marekting ",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "anonymous",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "body-scroll-lock",
+            "version": "^2.6.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.3.5"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.37"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.26"
+          },
+          {
+            "name": "gatsby-plugin-netlify-cms",
+            "version": "^3.0.17"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.25"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.32"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.28"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.3.8"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.17"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.9.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.11.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.6"
+          },
+          {
+            "name": "react-burger-menu",
+            "version": "^2.6.8"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.6"
+          },
+          {
+            "name": "react-headroom",
+            "version": "^2.2.8"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-modal",
+            "version": "^3.8.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f059df7c3902fd628065e687e2470493",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "754ea7f8-eae2-5235-8e7b-f6485ad1910b": {
+      "resolve": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-page-creator",
+      "id": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/ethan/netlify-landing-page/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/netlify-landing-page/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4e6c215a5379c3f6c3442ff09805ae93",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Netlify Analytics",
+        "description": "Netlify Marketing Design System",
+        "author": "anonymous"
+      },
+      "port": 8000,
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-30T18:19:02.005Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0a0e34a939cb3cf230674fa9c98a9817",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "bf4ee303-34ab-568b-b678-1618fea81769": {
+      "id": "bf4ee303-34ab-568b-b678-1618fea81769",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9ee1b22dd1f7dffadc8d8856b90f1ba7",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 1184,
+      "prettySize": "1.18 kB",
+      "modifiedTime": "2019-04-11T19:49:36.700Z",
+      "accessTime": "2019-04-30T18:19:05.918Z",
+      "changeTime": "2019-04-11T19:49:36.700Z",
+      "birthTime": "2019-04-02T23:16:36.873Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 37,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087278,
+      "blocks": 0,
+      "atimeMs": 1556648345918.2532,
+      "mtimeMs": 1555012176700.434,
+      "ctimeMs": 1555012176700.434,
+      "birthtimeMs": 1554246996872.8896,
+      "atime": "2019-04-30T18:19:05.918Z",
+      "mtime": "2019-04-11T19:49:36.700Z",
+      "ctime": "2019-04-11T19:49:36.700Z",
+      "birthtime": "2019-04-02T23:16:36.873Z"
+    },
+    "772197af-3034-55c0-819a-d404512e0f3e": {
+      "id": "772197af-3034-55c0-819a-d404512e0f3e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "aed69d97d1cff05cbeef243568935f7f",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/audience-creation.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/audience-creation.svg",
+      "relativePath": "audience-creation.svg",
+      "extension": "svg",
+      "size": 10052,
+      "prettySize": "10.1 kB",
+      "modifiedTime": "2019-04-06T18:36:36.271Z",
+      "accessTime": "2019-04-30T16:15:32.624Z",
+      "changeTime": "2019-04-08T18:36:07.797Z",
+      "birthTime": "2019-04-06T18:36:36.257Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "audience-creation.svg",
+      "ext": ".svg",
+      "name": "audience-creation",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087299,
+      "blocks": 24,
+      "atimeMs": 1556640932624.3547,
+      "mtimeMs": 1554575796271.0178,
+      "ctimeMs": 1554748567797.0967,
+      "birthtimeMs": 1554575796256.6929,
+      "atime": "2019-04-30T16:15:32.624Z",
+      "mtime": "2019-04-06T18:36:36.271Z",
+      "ctime": "2019-04-08T18:36:07.797Z",
+      "birthtime": "2019-04-06T18:36:36.257Z"
+    },
+    "fe6b559e-4476-5008-9598-9c8b778e9a13": {
+      "id": "fe6b559e-4476-5008-9598-9c8b778e9a13",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "35357ca0828a53265206c39bfec344a4",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/atlassian.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/atlassian.svg",
+      "relativePath": "atlassian.svg",
+      "extension": "svg",
+      "size": 2664,
+      "prettySize": "2.66 kB",
+      "modifiedTime": "2019-04-05T21:20:46.584Z",
+      "accessTime": "2019-04-30T16:15:32.624Z",
+      "changeTime": "2019-04-08T18:36:07.796Z",
+      "birthTime": "2019-04-05T21:20:46.578Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "atlassian.svg",
+      "ext": ".svg",
+      "name": "atlassian",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087297,
+      "blocks": 8,
+      "atimeMs": 1556640932624.3325,
+      "mtimeMs": 1554499246583.5,
+      "ctimeMs": 1554748567796.4263,
+      "birthtimeMs": 1554499246578.45,
+      "atime": "2019-04-30T16:15:32.624Z",
+      "mtime": "2019-04-05T21:20:46.584Z",
+      "ctime": "2019-04-08T18:36:07.796Z",
+      "birthtime": "2019-04-05T21:20:46.578Z"
+    },
+    "5ed24999-7e52-54fb-bcb3-f7b890c2cc0b": {
+      "id": "5ed24999-7e52-54fb-bcb3-f7b890c2cc0b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d165009fc9e7b8f89c03afaf32b3cf17",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/checked.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/checked.svg",
+      "relativePath": "checked.svg",
+      "extension": "svg",
+      "size": 1112,
+      "prettySize": "1.11 kB",
+      "modifiedTime": "2019-04-11T15:41:17.575Z",
+      "accessTime": "2019-04-30T16:15:32.624Z",
+      "changeTime": "2019-04-11T15:41:17.575Z",
+      "birthTime": "2019-04-11T15:40:44.833Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "checked.svg",
+      "ext": ".svg",
+      "name": "checked",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16281338,
+      "blocks": 8,
+      "atimeMs": 1556640932624.3965,
+      "mtimeMs": 1554997277575,
+      "ctimeMs": 1554997277574.9487,
+      "birthtimeMs": 1554997244832.964,
+      "atime": "2019-04-30T16:15:32.624Z",
+      "mtime": "2019-04-11T15:41:17.575Z",
+      "ctime": "2019-04-11T15:41:17.575Z",
+      "birthtime": "2019-04-11T15:40:44.833Z"
+    },
+    "632b5d74-dd2b-5cbb-810d-740028d83c69": {
+      "id": "632b5d74-dd2b-5cbb-810d-740028d83c69",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bdb080c25eabb2e7bd0b621e595fa46d",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/branch.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/branch.svg",
+      "relativePath": "branch.svg",
+      "extension": "svg",
+      "size": 22330,
+      "prettySize": "22.3 kB",
+      "modifiedTime": "2019-04-07T13:09:56.171Z",
+      "accessTime": "2019-04-30T16:15:32.624Z",
+      "changeTime": "2019-04-08T18:36:07.800Z",
+      "birthTime": "2019-04-07T13:09:56.171Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "branch.svg",
+      "ext": ".svg",
+      "name": "branch",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087306,
+      "blocks": 48,
+      "atimeMs": 1556640932624.376,
+      "mtimeMs": 1554642596171.3499,
+      "ctimeMs": 1554748567799.6982,
+      "birthtimeMs": 1554642596170.5493,
+      "atime": "2019-04-30T16:15:32.624Z",
+      "mtime": "2019-04-07T13:09:56.171Z",
+      "ctime": "2019-04-08T18:36:07.800Z",
+      "birthtime": "2019-04-07T13:09:56.171Z"
+    },
+    "bd7cbb1e-08ec-5784-86f7-81511b50b53d": {
+      "id": "bd7cbb1e-08ec-5784-86f7-81511b50b53d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e6755915610dac925f33e1df0b1ca80e",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/citrix.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/citrix.svg",
+      "relativePath": "citrix.svg",
+      "extension": "svg",
+      "size": 2482,
+      "prettySize": "2.48 kB",
+      "modifiedTime": "2019-04-05T21:21:26.334Z",
+      "accessTime": "2019-04-30T16:15:32.624Z",
+      "changeTime": "2019-04-08T18:36:07.800Z",
+      "birthTime": "2019-04-05T21:21:26.330Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "citrix.svg",
+      "ext": ".svg",
+      "name": "citrix",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087307,
+      "blocks": 8,
+      "atimeMs": 1556640932624.4172,
+      "mtimeMs": 1554499286334.4578,
+      "ctimeMs": 1554748567800.012,
+      "birthtimeMs": 1554499286329.7148,
+      "atime": "2019-04-30T16:15:32.624Z",
+      "mtime": "2019-04-05T21:21:26.334Z",
+      "ctime": "2019-04-08T18:36:07.800Z",
+      "birthtime": "2019-04-05T21:21:26.330Z"
+    },
+    "c0eca500-4bf5-505f-9086-87557e1812cb": {
+      "id": "c0eca500-4bf5-505f-9086-87557e1812cb",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "539a027f1e57175c6db58403dce3c954",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/data.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/data.svg",
+      "relativePath": "data.svg",
+      "extension": "svg",
+      "size": 10235,
+      "prettySize": "10.2 kB",
+      "modifiedTime": "2019-04-07T13:12:53.976Z",
+      "accessTime": "2019-04-30T16:15:32.624Z",
+      "changeTime": "2019-04-08T18:36:07.798Z",
+      "birthTime": "2019-04-07T13:12:53.976Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "data.svg",
+      "ext": ".svg",
+      "name": "data",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087302,
+      "blocks": 24,
+      "atimeMs": 1556640932624.4377,
+      "mtimeMs": 1554642773976.3286,
+      "ctimeMs": 1554748567798.1096,
+      "birthtimeMs": 1554642773975.7654,
+      "atime": "2019-04-30T16:15:32.624Z",
+      "mtime": "2019-04-07T13:12:53.976Z",
+      "ctime": "2019-04-08T18:36:07.798Z",
+      "birthtime": "2019-04-07T13:12:53.976Z"
+    },
+    "9f3e9795-4d30-5c77-a1d7-07319db528cd": {
+      "id": "9f3e9795-4d30-5c77-a1d7-07319db528cd",
+      "children": [
+        "6563b69f-70c6-51ef-ac7e-935667b9575d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-04-02T23:16:36.874Z",
+      "accessTime": "2019-04-30T17:47:15.370Z",
+      "changeTime": "2019-04-08T18:36:07.797Z",
+      "birthTime": "2019-04-02T23:16:36.874Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087298,
+      "blocks": 48,
+      "atimeMs": 1556646435369.628,
+      "mtimeMs": 1554246996874.1472,
+      "ctimeMs": 1554748567796.7324,
+      "birthtimeMs": 1554246996873.9678,
+      "atime": "2019-04-30T17:47:15.370Z",
+      "mtime": "2019-04-02T23:16:36.874Z",
+      "ctime": "2019-04-08T18:36:07.797Z",
+      "birthtime": "2019-04-02T23:16:36.874Z"
+    },
+    "b3e6b36d-4b4f-5634-b5a0-1b5112230edf": {
+      "id": "b3e6b36d-4b4f-5634-b5a0-1b5112230edf",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7fd862ab6cc858b53e79e03fd4e8c830",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/done.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/done.svg",
+      "relativePath": "done.svg",
+      "extension": "svg",
+      "size": 8271,
+      "prettySize": "8.27 kB",
+      "modifiedTime": "2019-04-07T13:11:53.589Z",
+      "accessTime": "2019-04-30T16:15:32.624Z",
+      "changeTime": "2019-04-08T18:36:07.799Z",
+      "birthTime": "2019-04-07T13:11:53.589Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "done.svg",
+      "ext": ".svg",
+      "name": "done",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087305,
+      "blocks": 24,
+      "atimeMs": 1556640932624.4768,
+      "mtimeMs": 1554642713589.069,
+      "ctimeMs": 1554748567799.3066,
+      "birthtimeMs": 1554642713588.599,
+      "atime": "2019-04-30T16:15:32.624Z",
+      "mtime": "2019-04-07T13:11:53.589Z",
+      "ctime": "2019-04-08T18:36:07.799Z",
+      "birthtime": "2019-04-07T13:11:53.589Z"
+    },
+    "aed98ca7-b870-56d7-af44-366361432c47": {
+      "id": "aed98ca7-b870-56d7-af44-366361432c47",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "278a61442048506864a63ed3987e5ec6",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/logomark-1.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/logomark-1.svg",
+      "relativePath": "logomark-1.svg",
+      "extension": "svg",
+      "size": 4081,
+      "prettySize": "4.08 kB",
+      "modifiedTime": "2019-04-06T19:03:54.242Z",
+      "accessTime": "2019-04-30T16:15:34.887Z",
+      "changeTime": "2019-04-08T18:36:07.795Z",
+      "birthTime": "2019-04-06T19:03:54.242Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "logomark-1.svg",
+      "ext": ".svg",
+      "name": "logomark-1",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087292,
+      "blocks": 8,
+      "atimeMs": 1556640934887.3533,
+      "mtimeMs": 1554577434242.1497,
+      "ctimeMs": 1554748567794.62,
+      "birthtimeMs": 1554577434241.5334,
+      "atime": "2019-04-30T16:15:34.887Z",
+      "mtime": "2019-04-06T19:03:54.242Z",
+      "ctime": "2019-04-08T18:36:07.795Z",
+      "birthtime": "2019-04-06T19:03:54.242Z"
+    },
+    "ae98223f-70bd-528c-947e-3502c567cff5": {
+      "id": "ae98223f-70bd-528c-947e-3502c567cff5",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "72b09410b7332ac20787a90771ec96a1",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/deploy.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/deploy.svg",
+      "relativePath": "deploy.svg",
+      "extension": "svg",
+      "size": 12581,
+      "prettySize": "12.6 kB",
+      "modifiedTime": "2019-04-07T13:09:26.429Z",
+      "accessTime": "2019-04-30T16:15:32.624Z",
+      "changeTime": "2019-04-08T18:36:07.791Z",
+      "birthTime": "2019-04-07T13:09:26.428Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "deploy.svg",
+      "ext": ".svg",
+      "name": "deploy",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087283,
+      "blocks": 32,
+      "atimeMs": 1556640932624.4575,
+      "mtimeMs": 1554642566428.892,
+      "ctimeMs": 1554748567791.189,
+      "birthtimeMs": 1554642566428.3164,
+      "atime": "2019-04-30T16:15:32.624Z",
+      "mtime": "2019-04-07T13:09:26.429Z",
+      "ctime": "2019-04-08T18:36:07.791Z",
+      "birthtime": "2019-04-07T13:09:26.428Z"
+    },
+    "dfb28497-03fa-5b40-8512-19f2b9dc7483": {
+      "id": "dfb28497-03fa-5b40-8512-19f2b9dc7483",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f36996a67eddbdf20ab9200168b11e5f",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/hashicorp.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/hashicorp.svg",
+      "relativePath": "hashicorp.svg",
+      "extension": "svg",
+      "size": 2862,
+      "prettySize": "2.86 kB",
+      "modifiedTime": "2019-04-05T21:20:28.342Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.797Z",
+      "birthTime": "2019-04-05T21:20:28.336Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "hashicorp.svg",
+      "ext": ".svg",
+      "name": "hashicorp",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087300,
+      "blocks": 8,
+      "atimeMs": 1556640932624.535,
+      "mtimeMs": 1554499228341.6533,
+      "ctimeMs": 1554748567797.4302,
+      "birthtimeMs": 1554499228336.19,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-05T21:20:28.342Z",
+      "ctime": "2019-04-08T18:36:07.797Z",
+      "birthtime": "2019-04-05T21:20:28.336Z"
+    },
+    "d13ce3c0-4921-514a-b42b-4bc2c3fe3639": {
+      "id": "d13ce3c0-4921-514a-b42b-4bc2c3fe3639",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4bbcb83cce8d842e3d4ab5ba371b3cc6",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/logomark-dark.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/logomark-dark.svg",
+      "relativePath": "logomark-dark.svg",
+      "extension": "svg",
+      "size": 3824,
+      "prettySize": "3.82 kB",
+      "modifiedTime": "2019-04-06T01:59:24.826Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.795Z",
+      "birthTime": "2019-04-06T01:59:24.825Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "logomark-dark.svg",
+      "ext": ".svg",
+      "name": "logomark-dark",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087293,
+      "blocks": 8,
+      "atimeMs": 1556640932624.5745,
+      "mtimeMs": 1554515964825.5164,
+      "ctimeMs": 1554748567794.9517,
+      "birthtimeMs": 1554515964824.7249,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T01:59:24.826Z",
+      "ctime": "2019-04-08T18:36:07.795Z",
+      "birthtime": "2019-04-06T01:59:24.825Z"
+    },
+    "224d1d9f-f646-5d3d-8ad4-dd325ab94f33": {
+      "id": "224d1d9f-f646-5d3d-8ad4-dd325ab94f33",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b1b990b5581b819ac3466bea4c73a850",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/netlify-dark.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/netlify-dark.svg",
+      "relativePath": "netlify-dark.svg",
+      "extension": "svg",
+      "size": 5980,
+      "prettySize": "5.98 kB",
+      "modifiedTime": "2019-04-04T21:27:38.333Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.801Z",
+      "birthTime": "2019-04-04T21:27:22.049Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "netlify-dark.svg",
+      "ext": ".svg",
+      "name": "netlify-dark",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087309,
+      "blocks": 16,
+      "atimeMs": 1556640932624.6362,
+      "mtimeMs": 1554413258332.5908,
+      "ctimeMs": 1554748567800.7021,
+      "birthtimeMs": 1554413242048.602,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-04T21:27:38.333Z",
+      "ctime": "2019-04-08T18:36:07.801Z",
+      "birthtime": "2019-04-04T21:27:22.049Z"
+    },
+    "0d259b4c-7ee0-5646-9e74-eb24b68d2bbd": {
+      "id": "0d259b4c-7ee0-5646-9e74-eb24b68d2bbd",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3cce34b6ce9afe25f892da1b13d8b1ec",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/mountains.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/mountains.svg",
+      "relativePath": "mountains.svg",
+      "extension": "svg",
+      "size": 1816,
+      "prettySize": "1.82 kB",
+      "modifiedTime": "2019-04-06T16:15:19.810Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.798Z",
+      "birthTime": "2019-04-06T16:15:19.804Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "mountains.svg",
+      "ext": ".svg",
+      "name": "mountains",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087303,
+      "blocks": 8,
+      "atimeMs": 1556640932624.6157,
+      "mtimeMs": 1554567319810.1748,
+      "ctimeMs": 1554748567798.4844,
+      "birthtimeMs": 1554567319804.2236,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T16:15:19.810Z",
+      "ctime": "2019-04-08T18:36:07.798Z",
+      "birthtime": "2019-04-06T16:15:19.804Z"
+    },
+    "82dfafbe-3db9-5080-9dc6-a46f3f79d83e": {
+      "id": "82dfafbe-3db9-5080-9dc6-a46f3f79d83e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3bcd9539a0e242adb14bd8282a789954",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/menu.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/menu.svg",
+      "relativePath": "menu.svg",
+      "extension": "svg",
+      "size": 1151,
+      "prettySize": "1.15 kB",
+      "modifiedTime": "2019-04-08T03:54:11.776Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.800Z",
+      "birthTime": "2019-04-08T03:54:11.775Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "menu.svg",
+      "ext": ".svg",
+      "name": "menu",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087308,
+      "blocks": 8,
+      "atimeMs": 1556640932624.594,
+      "mtimeMs": 1554695651776.1895,
+      "ctimeMs": 1554748567800.339,
+      "birthtimeMs": 1554695651775.1018,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-08T03:54:11.776Z",
+      "ctime": "2019-04-08T18:36:07.800Z",
+      "birthtime": "2019-04-08T03:54:11.775Z"
+    },
+    "c8759186-49aa-5efa-add5-85040e7316d5": {
+      "id": "c8759186-49aa-5efa-add5-85040e7316d5",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "278a61442048506864a63ed3987e5ec6",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/netlify.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/netlify.svg",
+      "relativePath": "netlify.svg",
+      "extension": "svg",
+      "size": 4081,
+      "prettySize": "4.08 kB",
+      "modifiedTime": "2019-04-04T21:06:34.596Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.791Z",
+      "birthTime": "2019-04-04T21:06:18.268Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "netlify.svg",
+      "ext": ".svg",
+      "name": "netlify",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087282,
+      "blocks": 8,
+      "atimeMs": 1556640932624.6555,
+      "mtimeMs": 1554411994596,
+      "ctimeMs": 1554748567790.638,
+      "birthtimeMs": 1554411978267.6282,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-04T21:06:34.596Z",
+      "ctime": "2019-04-08T18:36:07.791Z",
+      "birthtime": "2019-04-04T21:06:18.268Z"
+    },
+    "7f4d357b-d404-5ddf-b836-9e0cce69eac2": {
+      "id": "7f4d357b-d404-5ddf-b836-9e0cce69eac2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "987f32b7f9256136fd56365ade44397b",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/settings.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/settings.svg",
+      "relativePath": "settings.svg",
+      "extension": "svg",
+      "size": 6873,
+      "prettySize": "6.87 kB",
+      "modifiedTime": "2019-04-07T13:10:13.844Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.792Z",
+      "birthTime": "2019-04-07T13:10:13.844Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "settings.svg",
+      "ext": ".svg",
+      "name": "settings",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087285,
+      "blocks": 16,
+      "atimeMs": 1556640932624.7139,
+      "mtimeMs": 1554642613844.026,
+      "ctimeMs": 1554748567791.971,
+      "birthtimeMs": 1554642613843.727,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-07T13:10:13.844Z",
+      "ctime": "2019-04-08T18:36:07.792Z",
+      "birthtime": "2019-04-07T13:10:13.844Z"
+    },
+    "a147d28e-1efa-51da-a4c8-b12c3c270752": {
+      "id": "a147d28e-1efa-51da-a4c8-b12c3c270752",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ca1e5074a1d8e7c79e6951b659369dcf",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/questions.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/questions.svg",
+      "relativePath": "questions.svg",
+      "extension": "svg",
+      "size": 37300,
+      "prettySize": "37.3 kB",
+      "modifiedTime": "2019-04-07T13:10:54.605Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.790Z",
+      "birthTime": "2019-04-07T13:10:54.604Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "questions.svg",
+      "ext": ".svg",
+      "name": "questions",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087281,
+      "blocks": 80,
+      "atimeMs": 1556640932624.6753,
+      "mtimeMs": 1554642654604.8796,
+      "ctimeMs": 1554748567790.1868,
+      "birthtimeMs": 1554642654604.0015,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-07T13:10:54.605Z",
+      "ctime": "2019-04-08T18:36:07.790Z",
+      "birthtime": "2019-04-07T13:10:54.604Z"
+    },
+    "551922d3-d54d-588e-b71f-d32b9dd96c17": {
+      "id": "551922d3-d54d-588e-b71f-d32b9dd96c17",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "cdf24caa1b2f0cf5ed044673f6e41f46",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/scale.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/scale.svg",
+      "relativePath": "scale.svg",
+      "extension": "svg",
+      "size": 35013,
+      "prettySize": "35 kB",
+      "modifiedTime": "2019-04-05T23:53:11.144Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.794Z",
+      "birthTime": "2019-04-05T23:53:04.932Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "scale.svg",
+      "ext": ".svg",
+      "name": "scale",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087290,
+      "blocks": 72,
+      "atimeMs": 1556640932624.6946,
+      "mtimeMs": 1554508391144,
+      "ctimeMs": 1554748567793.78,
+      "birthtimeMs": 1554508384931.9841,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-05T23:53:11.144Z",
+      "ctime": "2019-04-08T18:36:07.794Z",
+      "birthtime": "2019-04-05T23:53:04.932Z"
+    },
+    "f722a991-1ebc-5583-8a45-23a6daeb634e": {
+      "id": "f722a991-1ebc-5583-8a45-23a6daeb634e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fb4435d4cb6d01611e495b787eff8637",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/split-testing.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/split-testing.svg",
+      "relativePath": "split-testing.svg",
+      "extension": "svg",
+      "size": 5968,
+      "prettySize": "5.97 kB",
+      "modifiedTime": "2019-04-06T18:35:13.430Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.789Z",
+      "birthTime": "2019-04-06T18:35:13.421Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "split-testing.svg",
+      "ext": ".svg",
+      "name": "split-testing",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087279,
+      "blocks": 16,
+      "atimeMs": 1556640932624.7336,
+      "mtimeMs": 1554575713430.472,
+      "ctimeMs": 1554748567789.1914,
+      "birthtimeMs": 1554575713421.0115,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T18:35:13.430Z",
+      "ctime": "2019-04-08T18:36:07.789Z",
+      "birthtime": "2019-04-06T18:35:13.421Z"
+    },
+    "b1981b09-722a-5686-b03c-6a9147638ed9": {
+      "id": "b1981b09-722a-5686-b03c-6a9147638ed9",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4bd08c9198896a99347cc9a73a06950f",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/step2.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/step2.svg",
+      "relativePath": "step2.svg",
+      "extension": "svg",
+      "size": 3532,
+      "prettySize": "3.53 kB",
+      "modifiedTime": "2019-04-06T17:03:47.172Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.792Z",
+      "birthTime": "2019-04-06T17:03:47.142Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "step2.svg",
+      "ext": ".svg",
+      "name": "step2",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087286,
+      "blocks": 8,
+      "atimeMs": 1556640932624.7908,
+      "mtimeMs": 1554570227171.5957,
+      "ctimeMs": 1554748567792.3127,
+      "birthtimeMs": 1554570227142.2869,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T17:03:47.172Z",
+      "ctime": "2019-04-08T18:36:07.792Z",
+      "birthtime": "2019-04-06T17:03:47.142Z"
+    },
+    "f1428adc-2f90-5549-b3ae-c611187df328": {
+      "id": "f1428adc-2f90-5549-b3ae-c611187df328",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8aae1b24ffa1ea5cda6ade3aded86e43",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/split.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/split.svg",
+      "relativePath": "split.svg",
+      "extension": "svg",
+      "size": 12575,
+      "prettySize": "12.6 kB",
+      "modifiedTime": "2019-04-06T16:55:38.316Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.796Z",
+      "birthTime": "2019-04-06T16:55:33.598Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "split.svg",
+      "ext": ".svg",
+      "name": "split",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33152,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087295,
+      "blocks": 32,
+      "atimeMs": 1556640932624.753,
+      "mtimeMs": 1554569738316,
+      "ctimeMs": 1554748567795.6313,
+      "birthtimeMs": 1554569733597.7654,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T16:55:38.316Z",
+      "ctime": "2019-04-08T18:36:07.796Z",
+      "birthtime": "2019-04-06T16:55:33.598Z"
+    },
+    "efb5b0bc-de3b-5c2c-ab17-9b6ee95bc7ef": {
+      "id": "efb5b0bc-de3b-5c2c-ab17-9b6ee95bc7ef",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "653b1bf542fca35a3752e3979c2ec266",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/step1.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/step1.svg",
+      "relativePath": "step1.svg",
+      "extension": "svg",
+      "size": 3499,
+      "prettySize": "3.5 kB",
+      "modifiedTime": "2019-04-06T17:03:55.926Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.792Z",
+      "birthTime": "2019-04-06T17:03:55.903Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "step1.svg",
+      "ext": ".svg",
+      "name": "step1",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087284,
+      "blocks": 8,
+      "atimeMs": 1556640932624.7717,
+      "mtimeMs": 1554570235925.9448,
+      "ctimeMs": 1554748567791.5574,
+      "birthtimeMs": 1554570235902.997,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T17:03:55.926Z",
+      "ctime": "2019-04-08T18:36:07.792Z",
+      "birthtime": "2019-04-06T17:03:55.903Z"
+    },
+    "32b1aacc-a894-5d16-9e32-e95af812b2b8": {
+      "id": "32b1aacc-a894-5d16-9e32-e95af812b2b8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d935452cf5132bc6fb75b7d4ba4ad9b0",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/step3.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/step3.svg",
+      "relativePath": "step3.svg",
+      "extension": "svg",
+      "size": 1778,
+      "prettySize": "1.78 kB",
+      "modifiedTime": "2019-04-06T17:04:05.320Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.793Z",
+      "birthTime": "2019-04-06T17:04:04.662Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "step3.svg",
+      "ext": ".svg",
+      "name": "step3",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087287,
+      "blocks": 8,
+      "atimeMs": 1556640932624.8093,
+      "mtimeMs": 1554570245320.3127,
+      "ctimeMs": 1554748567792.6248,
+      "birthtimeMs": 1554570244661.5093,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T17:04:05.320Z",
+      "ctime": "2019-04-08T18:36:07.793Z",
+      "birthtime": "2019-04-06T17:04:04.662Z"
+    },
+    "3fc0f58f-68fb-5e76-8659-4328c16c9f21": {
+      "id": "3fc0f58f-68fb-5e76-8659-4328c16c9f21",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ab2393e4967bbe6e1d14aa338d496ec0",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/user_personlization.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/user_personlization.svg",
+      "relativePath": "user_personlization.svg",
+      "extension": "svg",
+      "size": 9430,
+      "prettySize": "9.43 kB",
+      "modifiedTime": "2019-04-06T18:33:10.905Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.795Z",
+      "birthTime": "2019-04-06T18:33:10.891Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "user_personlization.svg",
+      "ext": ".svg",
+      "name": "user_personlization",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087294,
+      "blocks": 24,
+      "atimeMs": 1556640932624.8672,
+      "mtimeMs": 1554575590904.5662,
+      "ctimeMs": 1554748567795.2727,
+      "birthtimeMs": 1554575590890.8845,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T18:33:10.905Z",
+      "ctime": "2019-04-08T18:36:07.795Z",
+      "birthtime": "2019-04-06T18:33:10.891Z"
+    },
+    "cf49ab85-b34a-532e-8efb-2cd5f2c070de": {
+      "id": "cf49ab85-b34a-532e-8efb-2cd5f2c070de",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6157ef66908663d109237bc8b6210430",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/support.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/support.svg",
+      "relativePath": "support.svg",
+      "extension": "svg",
+      "size": 9027,
+      "prettySize": "9.03 kB",
+      "modifiedTime": "2019-04-06T18:42:43.154Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.793Z",
+      "birthTime": "2019-04-06T18:42:43.139Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "support.svg",
+      "ext": ".svg",
+      "name": "support",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087288,
+      "blocks": 24,
+      "atimeMs": 1556640932624.829,
+      "mtimeMs": 1554576163153.7305,
+      "ctimeMs": 1554748567792.9207,
+      "birthtimeMs": 1554576163139.459,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T18:42:43.154Z",
+      "ctime": "2019-04-08T18:36:07.793Z",
+      "birthtime": "2019-04-06T18:42:43.139Z"
+    },
+    "b7d5106f-87f9-5dcb-8621-44a4afac1eaf": {
+      "id": "b7d5106f-87f9-5dcb-8621-44a4afac1eaf",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "51f7d7343cf55dbac819479071cb768f",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/verizon.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/verizon.svg",
+      "relativePath": "verizon.svg",
+      "extension": "svg",
+      "size": 1719,
+      "prettySize": "1.72 kB",
+      "modifiedTime": "2019-04-05T21:21:39.882Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.790Z",
+      "birthTime": "2019-04-05T21:21:39.878Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "verizon.svg",
+      "ext": ".svg",
+      "name": "verizon",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087280,
+      "blocks": 8,
+      "atimeMs": 1556640932624.9055,
+      "mtimeMs": 1554499299881.7437,
+      "ctimeMs": 1554748567789.673,
+      "birthtimeMs": 1554499299878.163,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-05T21:21:39.882Z",
+      "ctime": "2019-04-08T18:36:07.790Z",
+      "birthtime": "2019-04-05T21:21:39.878Z"
+    },
+    "c363308a-0bdd-547d-97ac-45ac406b5bd8": {
+      "id": "c363308a-0bdd-547d-97ac-45ac406b5bd8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f609f8c291efb5674eaf5aa10d48ac6d",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/wave.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/wave.svg",
+      "relativePath": "wave.svg",
+      "extension": "svg",
+      "size": 472,
+      "prettySize": "472 B",
+      "modifiedTime": "2019-04-11T19:52:05.240Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-11T19:52:05.240Z",
+      "birthTime": "2019-04-06T00:08:28.133Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "wave.svg",
+      "ext": ".svg",
+      "name": "wave",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087304,
+      "blocks": 8,
+      "atimeMs": 1556640932624.9248,
+      "mtimeMs": 1555012325240.243,
+      "ctimeMs": 1555012325240.243,
+      "birthtimeMs": 1554509308132.9346,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-11T19:52:05.240Z",
+      "ctime": "2019-04-11T19:52:05.240Z",
+      "birthtime": "2019-04-06T00:08:28.133Z"
+    },
+    "3dc5f38b-6e28-5d6a-bd3a-8f5d1748e46e": {
+      "id": "3dc5f38b-6e28-5d6a-bd3a-8f5d1748e46e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3128315babc1c433e3719a78532d7147",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/wave2.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/wave2.svg",
+      "relativePath": "wave2.svg",
+      "extension": "svg",
+      "size": 496,
+      "prettySize": "496 B",
+      "modifiedTime": "2019-04-11T19:49:48.537Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-11T19:49:48.537Z",
+      "birthTime": "2019-04-11T19:49:36.697Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "wave2.svg",
+      "ext": ".svg",
+      "name": "wave2",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16297245,
+      "blocks": 8,
+      "atimeMs": 1556640932624.944,
+      "mtimeMs": 1555012188536.5796,
+      "ctimeMs": 1555012188536.5796,
+      "birthtimeMs": 1555012176696.7341,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-11T19:49:48.537Z",
+      "ctime": "2019-04-11T19:49:48.537Z",
+      "birthtime": "2019-04-11T19:49:36.697Z"
+    },
+    "c8dd6e00-2492-55ba-9962-7bde82862f2e": {
+      "id": "c8dd6e00-2492-55ba-9962-7bde82862f2e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3bc65c098e0d41c89890a8e235cda49d",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/verizon-case-study.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/verizon-case-study.svg",
+      "relativePath": "verizon-case-study.svg",
+      "extension": "svg",
+      "size": 1719,
+      "prettySize": "1.72 kB",
+      "modifiedTime": "2019-04-07T01:32:13.619Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.801Z",
+      "birthTime": "2019-04-07T01:32:13.606Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "verizon-case-study.svg",
+      "ext": ".svg",
+      "name": "verizon-case-study",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087310,
+      "blocks": 8,
+      "atimeMs": 1556640932624.8865,
+      "mtimeMs": 1554600733619.3293,
+      "ctimeMs": 1554748567801.0115,
+      "birthtimeMs": 1554600733606.3184,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-07T01:32:13.619Z",
+      "ctime": "2019-04-08T18:36:07.801Z",
+      "birthtime": "2019-04-07T01:32:13.606Z"
+    },
+    "cb3a5848-759b-5360-b176-102f745ced69": {
+      "id": "cb3a5848-759b-5360-b176-102f745ced69",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f609f8c291efb5674eaf5aa10d48ac6d",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/waveOG.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/waveOG.svg",
+      "relativePath": "waveOG.svg",
+      "extension": "svg",
+      "size": 472,
+      "prettySize": "472 B",
+      "modifiedTime": "2019-04-07T02:02:33.337Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-11T19:30:02.119Z",
+      "birthTime": "2019-04-06T00:08:28.133Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "waveOG.svg",
+      "ext": ".svg",
+      "name": "waveOG",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16296428,
+      "blocks": 8,
+      "atimeMs": 1556640932624.9631,
+      "mtimeMs": 1554602553336.8064,
+      "ctimeMs": 1555011002119.272,
+      "birthtimeMs": 1554509308132.9346,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-07T02:02:33.337Z",
+      "ctime": "2019-04-11T19:30:02.119Z",
+      "birthtime": "2019-04-06T00:08:28.133Z"
+    },
+    "20bfb2ab-5e6b-5678-a8f7-2ff5e6f1418a": {
+      "id": "20bfb2ab-5e6b-5678-a8f7-2ff5e6f1418a",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "db7d4caeff676d75b667bfa9a49e2f05",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/x-circle.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/x-circle.svg",
+      "relativePath": "x-circle.svg",
+      "extension": "svg",
+      "size": 1742,
+      "prettySize": "1.74 kB",
+      "modifiedTime": "2019-04-11T15:41:00.723Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-11T15:41:00.729Z",
+      "birthTime": "2019-04-11T15:40:50.253Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "x-circle.svg",
+      "ext": ".svg",
+      "name": "x-circle",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16281345,
+      "blocks": 8,
+      "atimeMs": 1556640932625.0007,
+      "mtimeMs": 1554997260723,
+      "ctimeMs": 1554997260729.3867,
+      "birthtimeMs": 1554997250252.7898,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-11T15:41:00.723Z",
+      "ctime": "2019-04-11T15:41:00.729Z",
+      "birthtime": "2019-04-11T15:40:50.253Z"
+    },
+    "6563b69f-70c6-51ef-ac7e-935667b9575d": {
+      "id": "6563b69f-70c6-51ef-ac7e-935667b9575d",
+      "children": [],
+      "parent": "9f3e9795-4d30-5c77-a1d7-07319db528cd",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4086fc70-8833-5089-8085-c7736884f013": {
+      "id": "4086fc70-8833-5089-8085-c7736884f013",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7f4e152c624b616d5ef0b9c1b3ab4b4f",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/world.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/world.svg",
+      "relativePath": "world.svg",
+      "extension": "svg",
+      "size": 19609,
+      "prettySize": "19.6 kB",
+      "modifiedTime": "2019-04-06T04:03:16.890Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.794Z",
+      "birthTime": "2019-04-06T04:03:16.869Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "world.svg",
+      "ext": ".svg",
+      "name": "world",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087291,
+      "blocks": 40,
+      "atimeMs": 1556640932624.982,
+      "mtimeMs": 1554523396890.2458,
+      "ctimeMs": 1554748567794.2603,
+      "birthtimeMs": 1554523396868.6304,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-06T04:03:16.890Z",
+      "ctime": "2019-04-08T18:36:07.794Z",
+      "birthtime": "2019-04-06T04:03:16.869Z"
+    },
+    "cee9bf5d-eca2-5232-b6df-2f4e219b03e2": {
+      "id": "cee9bf5d-eca2-5232-b6df-2f4e219b03e2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d1bd4450d0ff2983e756b92bb3d5735e",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/trending.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/trending.svg",
+      "relativePath": "trending.svg",
+      "extension": "svg",
+      "size": 75036,
+      "prettySize": "75 kB",
+      "modifiedTime": "2019-04-05T19:48:25.924Z",
+      "accessTime": "2019-04-30T16:15:32.625Z",
+      "changeTime": "2019-04-08T18:36:07.796Z",
+      "birthTime": "2019-04-05T19:48:25.838Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "trending.svg",
+      "ext": ".svg",
+      "name": "trending",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087296,
+      "blocks": 152,
+      "atimeMs": 1556640932624.848,
+      "mtimeMs": 1554493705923.782,
+      "ctimeMs": 1554748567796.0005,
+      "birthtimeMs": 1554493705837.6443,
+      "atime": "2019-04-30T16:15:32.625Z",
+      "mtime": "2019-04-05T19:48:25.924Z",
+      "ctime": "2019-04-08T18:36:07.796Z",
+      "birthtime": "2019-04-05T19:48:25.838Z"
+    },
+    "0d03e3bb-10f7-53e3-8edd-e209e29d55e2": {
+      "id": "0d03e3bb-10f7-53e3-8edd-e209e29d55e2",
+      "children": [
+        "a0fc10b1-86f7-5382-afcb-14ab4baf667c"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/netlify-landing-page/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-04-02T23:16:36.874Z",
+      "accessTime": "2019-04-30T17:47:15.370Z",
+      "changeTime": "2019-04-08T18:36:07.793Z",
+      "birthTime": "2019-04-02T23:16:36.873Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087289,
+      "blocks": 328,
+      "atimeMs": 1556646435369.6216,
+      "mtimeMs": 1554246996873.8545,
+      "ctimeMs": 1554748567793.3474,
+      "birthtimeMs": 1554246996872.9338,
+      "atime": "2019-04-30T17:47:15.370Z",
+      "mtime": "2019-04-02T23:16:36.874Z",
+      "ctime": "2019-04-08T18:36:07.793Z",
+      "birthtime": "2019-04-02T23:16:36.873Z"
+    },
+    "a0fc10b1-86f7-5382-afcb-14ab4baf667c": {
+      "id": "a0fc10b1-86f7-5382-afcb-14ab4baf667c",
+      "children": [],
+      "parent": "0d03e3bb-10f7-53e3-8edd-e209e29d55e2",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a0de50ef-7a27-5304-a162-12601489af34": {
+      "id": "a0de50ef-7a27-5304-a162-12601489af34",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d4f956d7bf21087d7b34e1c2f1262b6c",
+        "type": "Directory",
+        "description": "Directory \"content/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/ethan/netlify-landing-page/content/blog",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-03T17:43:32.543Z",
+      "accessTime": "2019-04-30T18:19:05.946Z",
+      "changeTime": "2019-04-08T18:35:45.179Z",
+      "birthTime": "2019-04-03T16:55:32.144Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/content",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16039205,
+      "blocks": 0,
+      "atimeMs": 1556648345946.0212,
+      "mtimeMs": 1554313412542.9363,
+      "ctimeMs": 1554748545178.505,
+      "birthtimeMs": 1554310532143.73,
+      "atime": "2019-04-30T18:19:05.946Z",
+      "mtime": "2019-04-03T17:43:32.543Z",
+      "ctime": "2019-04-08T18:35:45.179Z",
+      "birthtime": "2019-04-03T16:55:32.144Z"
+    },
+    "156345aa-d6a7-59bf-a176-2f5ca4306f85": {
+      "id": "156345aa-d6a7-59bf-a176-2f5ca4306f85",
+      "children": [
+        "265df1eb-aca2-52c3-82ae-c6c127690e0a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "10b202ac85a093118a7f64fd5d53ba4e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/2019-04-03-testing.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/ethan/netlify-landing-page/content/blog/2019-04-03-testing.md",
+      "relativePath": "2019-04-03-testing.md",
+      "extension": "md",
+      "size": 108,
+      "prettySize": "108 B",
+      "modifiedTime": "2019-04-03T17:43:32.543Z",
+      "accessTime": "2019-04-30T16:15:34.839Z",
+      "changeTime": "2019-04-08T18:35:45.178Z",
+      "birthTime": "2019-04-03T17:43:32.543Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/content/blog",
+      "base": "2019-04-03-testing.md",
+      "ext": ".md",
+      "name": "2019-04-03-testing",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16039206,
+      "blocks": 8,
+      "atimeMs": 1556640934839.104,
+      "mtimeMs": 1554313412543.0652,
+      "ctimeMs": 1554748545178.3975,
+      "birthtimeMs": 1554313412542.9187,
+      "atime": "2019-04-30T16:15:34.839Z",
+      "mtime": "2019-04-03T17:43:32.543Z",
+      "ctime": "2019-04-08T18:35:45.178Z",
+      "birthtime": "2019-04-03T17:43:32.543Z"
+    },
+    "265df1eb-aca2-52c3-82ae-c6c127690e0a": {
+      "id": "265df1eb-aca2-52c3-82ae-c6c127690e0a",
+      "children": [],
+      "parent": "156345aa-d6a7-59bf-a176-2f5ca4306f85",
+      "internal": {
+        "content": "this is the ultimate test\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "e61dcea2b19571e0d13f7c03d33c0a77",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "testing",
+        "date": "2019-04-03T17:42:52.192Z",
+        "description": "this is a test"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "this is the ultimate test\n",
+      "fileAbsolutePath": "/Users/ethan/netlify-landing-page/content/blog/2019-04-03-testing.md"
+    },
+    "88c53fe2-0261-5129-af2f-eff211caaa9b": {
+      "id": "88c53fe2-0261-5129-af2f-eff211caaa9b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0b0ee58bc10db174859347c575ae3ead",
+        "type": "Directory",
+        "description": "Directory \"content/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/ethan/netlify-landing-page/content/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-07T16:06:24.284Z",
+      "accessTime": "2019-04-30T18:19:05.948Z",
+      "changeTime": "2019-04-08T18:35:45.180Z",
+      "birthTime": "2019-04-03T17:44:17.496Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/content",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16039207,
+      "blocks": 0,
+      "atimeMs": 1556648345948.327,
+      "mtimeMs": 1554653184284.204,
+      "ctimeMs": 1554748545179.5076,
+      "birthtimeMs": 1554313457496.1191,
+      "atime": "2019-04-30T18:19:05.948Z",
+      "mtime": "2019-04-07T16:06:24.284Z",
+      "ctime": "2019-04-08T18:35:45.180Z",
+      "birthtime": "2019-04-03T17:44:17.496Z"
+    },
+    "846c6c54-d44d-5bbd-bede-73b73e025dc5": {
+      "id": "846c6c54-d44d-5bbd-bede-73b73e025dc5",
+      "children": [
+        "a4e0af17-767d-5180-83c8-e4c86aed0d5a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1165ed47996ed6feb62ff19094d34a6a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/pages/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/ethan/netlify-landing-page/content/pages/index.md",
+      "relativePath": "index.md",
+      "extension": "md",
+      "size": 379,
+      "prettySize": "379 B",
+      "modifiedTime": "2019-04-07T16:06:24.284Z",
+      "accessTime": "2019-04-30T16:15:34.839Z",
+      "changeTime": "2019-04-08T18:35:45.179Z",
+      "birthTime": "2019-04-07T16:06:24.284Z",
+      "root": "/",
+      "dir": "/Users/ethan/netlify-landing-page/content/pages",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16039208,
+      "blocks": 8,
+      "atimeMs": 1556640934839.1216,
+      "mtimeMs": 1554653184284.365,
+      "ctimeMs": 1554748545179.372,
+      "birthtimeMs": 1554653184284.1946,
+      "atime": "2019-04-30T16:15:34.839Z",
+      "mtime": "2019-04-07T16:06:24.284Z",
+      "ctime": "2019-04-08T18:35:45.179Z",
+      "birthtime": "2019-04-07T16:06:24.284Z"
+    },
+    "a4e0af17-767d-5180-83c8-e4c86aed0d5a": {
+      "id": "a4e0af17-767d-5180-83c8-e4c86aed0d5a",
+      "children": [],
+      "parent": "846c6c54-d44d-5bbd-bede-73b73e025dc5",
+      "internal": {
+        "content": "Netlify Analytics\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "cabc0ae3e606921ed99e9f29479b423a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Introducing",
+        "image": "/images/trending.svg",
+        "heading": "Netlify Analtyics",
+        "subheading": "Netlify Analytics allows you to test your site without any pain. With real-time data we provide your company with true personalization, simple A/B testing, and seamless integration. Best of all, without any javascript libraries or loss of any performance."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Netlify Analytics\n",
+      "fileAbsolutePath": "/Users/ethan/netlify-landing-page/content/pages/index.md"
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/ethan/netlify-landing-page/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+      "pluginCreatorId": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+      "componentPath": "/Users/ethan/netlify-landing-page/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d119b14e91f34a90a4d79f56779beff2",
+        "description": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /how-it-works/": {
+      "jsonName": "how-it-works-9f8",
+      "internalComponentName": "ComponentHowItWorks",
+      "path": "/how-it-works/",
+      "component": "/Users/ethan/netlify-landing-page/src/pages/how-it-works.js",
+      "componentChunkName": "component---src-pages-how-it-works-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+      "pluginCreatorId": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+      "componentPath": "/Users/ethan/netlify-landing-page/src/pages/how-it-works.js",
+      "id": "SitePage /how-it-works/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "794c8a86628318dd69d727352a40b59d",
+        "description": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/ethan/netlify-landing-page/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+      "pluginCreatorId": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+      "componentPath": "/Users/ethan/netlify-landing-page/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e770cb811ecbb31237cd0430bea5446d",
+        "description": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /pricing/": {
+      "jsonName": "pricing-665",
+      "internalComponentName": "ComponentPricing",
+      "path": "/pricing/",
+      "component": "/Users/ethan/netlify-landing-page/src/pages/pricing.js",
+      "componentChunkName": "component---src-pages-pricing-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+      "pluginCreatorId": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+      "componentPath": "/Users/ethan/netlify-landing-page/src/pages/pricing.js",
+      "id": "SitePage /pricing/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "861926daa47eee14f4a6339c75e94d02",
+        "description": "754ea7f8-eae2-5235-8e7b-f6485ad1910b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/ethan/netlify-landing-page/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/ethan/netlify-landing-page/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fdef1188f20055b863082e88ed0fe579",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "e9b6f9cff4ca7ac2ca2f4620f90fda58"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "772197af-3034-55c0-819a-d404512e0f3e": [
+        "sq--src-components-image-js"
+      ],
+      "fe6b559e-4476-5008-9598-9c8b778e9a13": [
+        "sq--src-components-image-js"
+      ],
+      "5ed24999-7e52-54fb-bcb3-f7b890c2cc0b": [
+        "sq--src-components-image-js"
+      ],
+      "632b5d74-dd2b-5cbb-810d-740028d83c69": [
+        "sq--src-components-image-js"
+      ],
+      "bd7cbb1e-08ec-5784-86f7-81511b50b53d": [
+        "sq--src-components-image-js"
+      ],
+      "c0eca500-4bf5-505f-9086-87557e1812cb": [
+        "sq--src-components-image-js"
+      ],
+      "9f3e9795-4d30-5c77-a1d7-07319db528cd": [
+        "sq--src-components-image-js"
+      ],
+      "6563b69f-70c6-51ef-ac7e-935667b9575d": [
+        "sq--src-components-image-js"
+      ],
+      "b3e6b36d-4b4f-5634-b5a0-1b5112230edf": [
+        "sq--src-components-image-js"
+      ],
+      "aed98ca7-b870-56d7-af44-366361432c47": [
+        "sq--src-components-image-js"
+      ],
+      "ae98223f-70bd-528c-947e-3502c567cff5": [
+        "sq--src-components-image-js"
+      ],
+      "dfb28497-03fa-5b40-8512-19f2b9dc7483": [
+        "sq--src-components-image-js"
+      ],
+      "d13ce3c0-4921-514a-b42b-4bc2c3fe3639": [
+        "sq--src-components-image-js"
+      ],
+      "224d1d9f-f646-5d3d-8ad4-dd325ab94f33": [
+        "sq--src-components-image-js"
+      ],
+      "0d259b4c-7ee0-5646-9e74-eb24b68d2bbd": [
+        "sq--src-components-image-js"
+      ],
+      "82dfafbe-3db9-5080-9dc6-a46f3f79d83e": [
+        "sq--src-components-image-js"
+      ],
+      "c8759186-49aa-5efa-add5-85040e7316d5": [
+        "sq--src-components-image-js"
+      ],
+      "7f4d357b-d404-5ddf-b836-9e0cce69eac2": [
+        "sq--src-components-image-js"
+      ],
+      "a147d28e-1efa-51da-a4c8-b12c3c270752": [
+        "sq--src-components-image-js"
+      ],
+      "551922d3-d54d-588e-b71f-d32b9dd96c17": [
+        "sq--src-components-image-js"
+      ],
+      "f722a991-1ebc-5583-8a45-23a6daeb634e": [
+        "sq--src-components-image-js"
+      ],
+      "b1981b09-722a-5686-b03c-6a9147638ed9": [
+        "sq--src-components-image-js"
+      ],
+      "f1428adc-2f90-5549-b3ae-c611187df328": [
+        "sq--src-components-image-js"
+      ],
+      "efb5b0bc-de3b-5c2c-ab17-9b6ee95bc7ef": [
+        "sq--src-components-image-js"
+      ],
+      "32b1aacc-a894-5d16-9e32-e95af812b2b8": [
+        "sq--src-components-image-js"
+      ],
+      "3fc0f58f-68fb-5e76-8659-4328c16c9f21": [
+        "sq--src-components-image-js"
+      ],
+      "cf49ab85-b34a-532e-8efb-2cd5f2c070de": [
+        "sq--src-components-image-js"
+      ],
+      "b7d5106f-87f9-5dcb-8621-44a4afac1eaf": [
+        "sq--src-components-image-js"
+      ],
+      "c363308a-0bdd-547d-97ac-45ac406b5bd8": [
+        "sq--src-components-image-js"
+      ],
+      "3dc5f38b-6e28-5d6a-bd3a-8f5d1748e46e": [
+        "sq--src-components-image-js"
+      ],
+      "c8dd6e00-2492-55ba-9962-7bde82862f2e": [
+        "sq--src-components-image-js"
+      ],
+      "cb3a5848-759b-5360-b176-102f745ced69": [
+        "sq--src-components-image-js"
+      ],
+      "20bfb2ab-5e6b-5678-a8f7-2ff5e6f1418a": [
+        "sq--src-components-image-js"
+      ],
+      "4086fc70-8833-5089-8085-c7736884f013": [
+        "sq--src-components-image-js"
+      ],
+      "cee9bf5d-eca2-5232-b6df-2f4e219b03e2": [
+        "sq--src-components-image-js"
+      ],
+      "0d03e3bb-10f7-53e3-8edd-e209e29d55e2": [
+        "sq--src-components-image-js"
+      ],
+      "a0fc10b1-86f7-5382-afcb-14ab4baf667c": [
+        "sq--src-components-image-js"
+      ],
+      "156345aa-d6a7-59bf-a176-2f5ca4306f85": [
+        "sq--src-components-image-js"
+      ],
+      "846c6c54-d44d-5bbd-bede-73b73e025dc5": [
+        "sq--src-components-image-js"
+      ]
+    },
+    "connections": {
+      "File": [
+        "sq--src-components-image-js"
+      ],
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-seo-js": 2417117884,
+    "sq--src-components-layout-js": 755544856,
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "how-it-works-9f8": "257/path---how-it-works-9-f-8-5b3-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "index": "873/path---index-6a9-ZBp0P0AiJkqXyTm4vMV9CsOQFs",
+    "pricing-665": "823/path---pricing-665-bf7-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "sq--src-components-image-js": 2351125363
+  },
+  "components": {
+    "/Users/ethan/netlify-landing-page/.cache/dev-404-page.js": {
+      "componentPath": "/Users/ethan/netlify-landing-page/.cache/dev-404-page.js",
+      "query": "",
+      "pages": [
+        "/dev-404-page/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/netlify-landing-page/src/pages/404.js": {
+      "componentPath": "/Users/ethan/netlify-landing-page/src/pages/404.js",
+      "query": "",
+      "pages": [
+        "/404/",
+        "/404.html"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/netlify-landing-page/src/pages/how-it-works.js": {
+      "componentPath": "/Users/ethan/netlify-landing-page/src/pages/how-it-works.js",
+      "query": "",
+      "pages": [
+        "/how-it-works/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/netlify-landing-page/src/pages/index.js": {
+      "componentPath": "/Users/ethan/netlify-landing-page/src/pages/index.js",
+      "query": "query usersEthanNetlifyLandingPageSrcPagesIndexJs3503747511 {\n  allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/content/pages/\"}}) {\n    edges {\n      node {\n        excerpt(pruneLength: 250)\n        id\n        frontmatter {\n          title\n          heading\n          subheading\n          image\n        }\n      }\n    }\n  }\n}\n",
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/netlify-landing-page/src/pages/pricing.js": {
+      "componentPath": "/Users/ethan/netlify-landing-page/src/pages/pricing.js",
+      "query": "",
+      "pages": [
+        "/pricing/"
+      ],
+      "isInBootstrap": false
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-image-js": {
+      "name": "usersEthanNetlifyLandingPageSrcComponentsImageJs2351125363",
+      "componentPath": "/Users/ethan/netlify-landing-page/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersEthanNetlifyLandingPageSrcComponentsImageJs2351125363 {\n  images: allFile {\n    edges {\n      node {\n        relativePath\n        name\n        publicURL\n        childImageSharp {\n          sizes(maxWidth: 600) {\n            ...GatsbyImageSharpSizes\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpSizes on ImageSharpSizes {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2351125363
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/ethan/netlify-landing-page/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "usersEthanNetlifyLandingPageSrcComponentsSeoJs2417117884",
+      "componentPath": "/Users/ethan/netlify-landing-page/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query usersEthanNetlifyLandingPageSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
+    }
+  }
+}

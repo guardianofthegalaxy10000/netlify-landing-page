@@ -1,0 +1,166 @@
+@import "../components/variables.scss";
+
+#how-it-works{
+    background-image: linear-gradient(to right, $purple-color, $green-color);    color: white;
+    padding-top: 100px;
+margin-top: -80px;
+padding-bottom: 300px;
+
+    @media only screen and (max-width: 600px){
+        margin-top: -96px;
+    }
+   
+}
+
+
+.directions-list{
+    position: relative;
+    margin: -300px auto auto auto;
+    text-align: center;
+    color: black;
+    padding: 40px 40px 0px 40px;
+    background-color: white;
+    max-width: 1200px;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+
+    @media only screen and (max-width: 700px){
+        box-shadow: none;
+    }
+
+    .tag-line{
+        max-width: 1000px;
+        margin: auto;
+
+        h2{
+            text-shadow: 0 2px 20px rgba(0,0,0,.16);
+            font-size: 2em;
+        }
+        h3{
+            text-shadow: 0 2px 20px rgba(0,0,0,.16);
+            font-size: 1.2em;
+        }
+
+    }
+
+
+    .direction-descriptions{
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        margin: auto;
+        max-width: 800px;
+
+        .direction{
+            display: flex;
+
+            @media only screen and (max-width: 700px){
+                flex-flow: column
+            }
+
+
+            &:last-child{
+                margin-bottom: 80px;
+            }
+            
+            .direction-body{
+                display: flex;
+                flex-flow: column;
+                align-items: flex-start;
+                justify-content: center;
+                margin: 0px 20px;
+
+                @media only screen and (max-width: 700px){
+                    order: 2;
+                    padding-bottom: 40px;
+                }
+
+                p{
+                    font-size: .95em;
+                    text-align: left;
+                    color: rgba(14,30,37,.54);
+                  
+                }
+                
+            }
+
+            .direction-img{
+                
+                .number{
+                    display: inline-block;
+                    padding: 0;
+                    width: 50px;
+                    height: 50px;    
+                    line-height: 50px;
+                    
+                    font-size: 20px;
+                    color: #fff;
+                    text-align: center;
+                    white-space: nowrap;
+                    vertical-align: baseline;
+                    background-color: #91d7f5;
+                    border-radius:50px;
+                    position: absolute;
+
+                }
+                &:nth-of-type(1){
+                    margin-right: 40px;
+                }
+
+                img{
+                    height: 250px;
+                    width: 400px;
+
+                    @media only screen and (max-width: 700px){
+                        height: 210px;
+                        width: 200px;
+                        margin-bottom: 0px;
+                    }
+                    
+                }
+
+            }
+
+        }
+        
+    }
+
+    
+}
+
+.questions{
+    width: 500px;
+    margin: -80px auto auto auto;
+
+    h2{
+        text-shadow: 0 2px 20px rgba(0,0,0,.16);
+        font-size: 2em;
+    }
+    h3{
+        text-shadow: 0 2px 20px rgba(0,0,0,.16);
+        font-size: 1.2em;
+    }
+
+    a{
+        display: block;
+        background-color: #3a0b6e;
+        padding: 10px 18px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        border-radius: 2px;
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        color: white;
+        width: 100px;
+        margin: auto;
+
+        &:hover {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+    }
+
+    @media only screen and (max-width: 700px){
+        width: auto;
+        margin: 0px auto auto auto;
+    }
+
+}
