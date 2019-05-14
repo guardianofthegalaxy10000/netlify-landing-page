@@ -23,18 +23,22 @@ class MobileMenu extends React.Component {
   }
 
   handleStateChange (state) {
-    const targetElement = document.querySelector("body");
+    const targetBody = document.querySelector("body");
+    const headroom = document.querySelector("#headroom");
     if(state.isOpen){
-      disableBodyScroll(targetElement);
+      disableBodyScroll(targetBody);
+      headroom.classList.remove("headroom--unpinned");
+      headroom.classList.add("headroom--unfixed");
       }else{
-      enableBodyScroll(targetElement);
+      enableBodyScroll(targetBody);
+      headroom.classList.add("headroom--unpinned");
+      headroom.classList.remove("headroom--unfixed");
     }
     this.setState({menuOpen: state.isOpen})  
   }
 
   closeMenu () {
     this.setState({menuOpen: false})
-    console.log("closed");
   }
 
   render() {
